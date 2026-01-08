@@ -305,12 +305,19 @@ from sklearn.metrics import mean_absolute_error, r2_score
 
 ---
 
+## Model Architecture
+
+![Bench Predictor Model Architecture](bench_pred_model.png)
+
 ## File Structure
 
 ```
 bench_predictor/
 ├── bench_copy.csv              # Input dataset
-├── bench_predictor copy 2.ipynb # Main notebook with ML pipeline
+├── bench_predictor.ipynb       # Main notebook with ML pipeline
+├── bench_test_data.json        # Test data for predictions
+├── bench_test_data_3.json      # Additional test data
+├── bench_pred_model.png        # Model architecture diagram
 └── README.md                    # This documentation
 ```
 

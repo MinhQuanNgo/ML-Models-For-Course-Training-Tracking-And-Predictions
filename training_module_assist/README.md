@@ -1,5 +1,9 @@
 # Employee Training Module Recommendation System
 
+## Model Workflow Diagram
+
+![Training Module Recommendation System Workflow](diagram.png)
+
 ## Overview
 
 This project implements a **Demand-Aware Machine Learning Course Recommendation System** that predicts the most suitable training modules for employees based on their profile, skills, performance, career goals, and **real-time market demand**. The system uses **XGBoost (eXtreme Gradient Boosting)** classifier combined with intelligent skill-to-course mapping to achieve **96.3% test accuracy** with minimal overfitting.
