@@ -1,6 +1,6 @@
 # NLP Advanced Sentiment Classification using Transformer Models
 
-## 📋 Overview
+##  Overview
 
 This advanced project implements **state-of-the-art sentiment classification** using deep learning and transformer-based techniques. It analyzes employee feedback and remarks with **100% accuracy** on test data using advanced Natural Language Processing and deep learning architectures.
 
@@ -20,31 +20,8 @@ This is particularly powerful for:
 
 ---
 
-## 🏗️ Advanced Architecture
-
-```mermaid
-flowchart TD
-    A["📥 Input Data<br/>nlp_final_feedback_with_all_columns.csv"] 
-    A --> B["🔀 Train-Test Split<br/>80% Train / 20% Test<br/>Stratified by Sentiment"]
-    B --> C["🔤 Advanced Text Preprocessing<br/>Lemmatization + Tokenization"]
-    C --> D["⚙️ Multi-Level Feature Engineering"]
-    D --> D1["📊 TF-IDF Advanced Features<br/>5000 max words, Bigrams"]
-    D --> D2["🧠 Deep Learning Embeddings<br/>Context-aware representations"]
-    D1 --> E["🤖 Model Training<br/>Classical + Deep Learning"]
-    D2 --> E
-    E --> E1["📈 Logistic Regression<br/>with TF-IDF"]
-    E --> E2["🌲 Random Forest<br/>with TF-IDF"]
-    E --> E3["📊 Gradient Boosting<br/>with TF-IDF"]
-    E --> E4["🧠 Deep Learning Neural Net<br/>with Embeddings"]
-    E1 --> F["🏆 Model Comparison<br/>& Selection"]
-    E2 --> F
-    E3 --> F
-    E4 --> F
-    F --> G["✅ Evaluation Metrics<br/>Accuracy, Precision, Recall, F1"]
-    G --> H["🔮 Sentiment Predictions<br/>on Test Data - 100% Accuracy!"]
-    H --> I["💾 Output<br/>nlp_model_predictions.csv"]
-```
-
+##  Advanced Architecture
+!['Project Architecture for NLP Transformer remark analysis'](./diagram.png)
 **Key Improvements Over Standard ML**:
 1. **Advanced Preprocessing**: Lemmatization extracts word roots (running → run, better → good)
 2. **Higher Dimensionality**: 5000 features vs 500 in standard TF-IDF
@@ -53,9 +30,9 @@ flowchart TD
 
 ---
 
-## 🔑 Advanced Components Explained
+##  Advanced Components Explained
 
-### 1️⃣ Advanced Text Preprocessing Phase
+###  Advanced Text Preprocessing Phase
 
 **Input Data**: `nlp_final_feedback_with_all_columns.csv`
 
@@ -99,7 +76,7 @@ After:  "employee showing good communication"
 
 ---
 
-### 2️⃣ Advanced Feature Engineering Phase
+###  Advanced Feature Engineering Phase
 
 #### **A. TF-IDF Advanced Vectorization**
 
@@ -167,7 +144,7 @@ Final Feature: [0.2, 0.53, 0.43, ...] (128 dimensions)
 
 ---
 
-### 3️⃣ Model Training Phase - Classical vs Deep Learning
+###  Model Training Phase - Classical vs Deep Learning
 
 #### **Classical ML Models (TF-IDF Based)**
 
@@ -243,7 +220,7 @@ Sentence: "The team communication is poor"
 
 ---
 
-### 4️⃣ Training Data Statistics
+###  Training Data Statistics
 
 ```
 Dataset: nlp_final_feedback_with_all_columns.csv
@@ -265,7 +242,7 @@ Feature Dimensions:
 
 ---
 
-### 5️⃣ Model Evaluation Phase
+###  Model Evaluation Phase
 
 #### **Performance Metrics**
 
@@ -304,7 +281,7 @@ SENTIMENT-WISE BREAKDOWN:
 
 ---
 
-### 6️⃣ Prediction & Output Phase
+###  Prediction & Output Phase
 
 #### **Production Prediction Pipeline**
 
@@ -365,7 +342,7 @@ class AdvancedSentimentPredictor:
 
 ---
 
-## 📁 Project Files
+##  Project Files
 
 | File | Purpose | Size |
 |------|---------|------|
@@ -376,7 +353,7 @@ class AdvancedSentimentPredictor:
 
 ---
 
-## 💻 Requirements & Setup
+##  Requirements & Setup
 
 ### Python Version
 - Python 3.7 or higher (3.8+ recommended for deep learning)
@@ -434,7 +411,7 @@ Utilities:
 
 ---
 
-## 🚀 How to Use This Project
+##  How to Use This Project
 
 ### Step 1: Data Preparation
 
@@ -501,7 +478,7 @@ results.to_csv('predictions.csv', index=False)
 
 ---
 
-## 📊 Understanding the Output
+##  Understanding the Output
 
 **Example prediction output**:
 ```
@@ -519,7 +496,7 @@ Model Prediction: "Positive" (100% confidence)
 
 ---
 
-## 🎯 Key Technical Advantages
+##  Key Technical Advantages
 
 ### Advanced Preprocessing Benefits
 ```
@@ -553,7 +530,7 @@ Deep Learning: Understands "needs better" = Constructive Negative
 
 ---
 
-## ⚙️ Model Hyperparameters
+##  Model Hyperparameters
 
 ### TF-IDF Configuration
 ```python
@@ -585,7 +562,7 @@ Training:
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 1. **Perfect Accuracy Context**: 100% accuracy on this small test set indicates excellent model quality, but real-world data may show variation
 2. **Preprocessing Consistency**: Training preprocessing (lemmatization, stop words) must be applied identically during inference
@@ -595,7 +572,7 @@ Training:
 
 ---
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Issue: Out of Memory Error
 **Solutions**:
@@ -620,7 +597,7 @@ Training:
 
 ---
 
-## 📈 Performance Expectations
+##  Performance Expectations
 
 - **Accuracy**: 85-100% (depending on data quality and complexity)
 - **Inference Speed**: 10-100 predictions per second (GPU)
@@ -629,7 +606,7 @@ Training:
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 1. **Transformer Models**: Migrate to BERT/RoBERTa for state-of-the-art performance
 2. **Multi-GPU Training**: Distribute training across multiple GPUs
@@ -640,20 +617,19 @@ Training:
 
 ---
 
-## 📝 Citation & References
+##  Citation & References
 
 This advanced NLP implementation combines:
 - Classical machine learning (scikit-learn)
 - Deep learning architectures (PyTorch)
 - Advanced NLP preprocessing (NLTK)
 - Industry best practices for text classification
-
-**Model Version**: 1.0  
-**Last Updated**: January 2026  
-**Status**: Production Ready  
-**Author**: Priti Ranjan Samal  
-**Accuracy**: 100% on test set
-
 ---
 
 **For integration questions or deployment assistance, refer to the main project documentation.**
+
+---
+**Last Updated**: January 2026  
+**Model Version**: 1.0  
+**Status**: Production Ready  
+**Author**: Priti Ranjan Samal

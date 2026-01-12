@@ -1,6 +1,6 @@
 # NLP Sentiment Classification Model
 
-## 📋 Overview
+##  Overview
 
 This project builds an intelligent **sentiment classification system** that automatically analyzes employee feedback and remarks to determine the sentiment (Positive, Negative, or Neutral). 
 
@@ -13,7 +13,7 @@ The model reads employee evaluation comments across multiple feedback dimensions
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 !['Project Architecture for NLP Remark Analysis'](./diagram.png)
 
 **Key Flow**:
@@ -25,9 +25,9 @@ The model reads employee evaluation comments across multiple feedback dimensions
 
 ---
 
-## 🔑 Key Components Explained
+##  Key Components Explained
 
-### 1️⃣ Data Preparation Phase
+###  Data Preparation Phase
 
 **Input Data**: `training_data_complete.csv`
 - Contains employee evaluation records with feedback from multiple reviewers
@@ -56,7 +56,7 @@ Combined text: "Good at Python Needs improvement in communication Strong team pl
 
 ---
 
-### 2️⃣ Feature Engineering Phase
+###  Feature Engineering Phase
 
 This step converts raw text and categorical data into numbers that machines can understand.
 
@@ -100,7 +100,7 @@ Total Features per record: 503
 
 ---
 
-### 3️⃣ Model Training Phase
+###  Model Training Phase
 
 Four different machine learning algorithms are trained to compare performance. Each uses **balanced class weights** to handle cases where some sentiments have fewer examples.
 
@@ -138,7 +138,7 @@ Random seed: 42 (for reproducibility)
 
 ---
 
-### 4️⃣ Model Evaluation Phase
+###  Model Evaluation Phase
 
 Each model makes predictions on the test set (200 unseen records), and performance is compared:
 
@@ -160,7 +160,7 @@ BEST MODEL SELECTED: Gradient Boosting with 87.5% accuracy
 
 ---
 
-### 5️⃣ Prediction & Output Phase
+###  Prediction & Output Phase
 
 The best-performing model is used to make predictions on new data.
 
@@ -195,7 +195,7 @@ A wrapper class that handles all the complexity of feature preparation:
 
 ---
 
-## 📁 Project Files
+##  Project Files
 
 | File | Purpose | Details |
 |------|---------|---------|
@@ -208,7 +208,7 @@ A wrapper class that handles all the complexity of feature preparation:
 
 ---
 
-## 💻 Requirements & Setup
+##  Requirements & Setup
 
 ### Python Version
 - Python 3.7 or higher
@@ -243,7 +243,7 @@ warnings     - Warning management
 
 ---
 
-## 🚀 How to Use This Project
+##  How to Use This Project
 
 ### Step 1: Prepare Your Data
 Ensure your CSV file has these columns:
@@ -316,7 +316,7 @@ print(results[['Overall_Feedback', 'Predicted_Sentiment']].head())
 
 ---
 
-## 📊 Understanding the Output
+##  Understanding the Output
 
 The output CSV file contains:
 
@@ -338,7 +338,7 @@ Example output rows:
 
 ---
 
-## 🎯 Key Implementation Details
+##  Key Implementation Details
 
 ### Handling Class Imbalance
 The project uses **balanced class weights** to handle cases where some sentiment classes have fewer examples than others. This prevents the model from being biased toward the majority class.
@@ -360,7 +360,7 @@ The project uses **balanced class weights** to handle cases where some sentiment
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 1. **Training Data Quality**: Model performance depends heavily on the quality and representativeness of training data
 2. **Class Balance**: If one sentiment class is very rare, consider collecting more data for that class
@@ -371,7 +371,7 @@ The project uses **balanced class weights** to handle cases where some sentiment
 
 ---
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Issue: Low Model Accuracy
 **Solutions**:
@@ -394,7 +394,7 @@ The project uses **balanced class weights** to handle cases where some sentiment
 
 ---
 
-## 📈 Model Performance Expectations
+##  Model Performance Expectations
 
 Based on typical HR feedback datasets:
 - **Accuracy Range**: 80-90% on balanced datasets
@@ -403,7 +403,7 @@ Based on typical HR feedback datasets:
 
 ---
 
-## 🤝 Contributing & Future Improvements
+##  Contributing & Future Improvements
 
 Potential enhancements:
 1. **Deep Learning**: Try BERT or other transformer models
@@ -414,8 +414,14 @@ Potential enhancements:
 
 ---
 
-## 📝 License & Contact
+##  License & Contact
 
-This project is part of the Lutron Updated Models collection for HR Analytics and Talent Management.
+This project is part of the Updated Models collection for Training and Talent Management.
 
 For questions or feedback, please refer to the main project documentation.
+
+---
+**Last Updated**: January 2026  
+**Model Version**: 1.0  
+**Status**: Production Ready  
+**Author**: Priti Ranjan Samal
